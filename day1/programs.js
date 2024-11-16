@@ -67,12 +67,18 @@
 
 // 8. Create a program that checks if a given string is a palindrome.
 
-let str = prompt("enter your word");
-isPalindrome = true;
+// let str = prompt("enter your word");
+// isPalindrome = true;
 
-for (let i = 0; i < Math.floor(str.length / 2); i++) {
-  if (str[i] !== str[str.length - 1 - i]) {
-    isPalindrome = false;
-    break;
-  }
-}
+// for (let i = 0; i < Math.floor(str.length / 2); i++) {
+//   if (str[i] !== str[str.length - 1 - i]) {
+//     isPalindrome = false;
+//     break;
+//   }
+// }
+
+// if (isPalindrome) { 
+//   console.log("this word is palindrome");
+// }else{
+//   console.log("this word is not palindrome");
+// }
