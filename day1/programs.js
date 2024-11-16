@@ -94,3 +94,16 @@
 // } else {
 //   console.log("this triangle is not valid form");
 // }
+
+// 11. Check if a given number is a multiple of both 3 and 5.
+
+let num = +prompt("enter your number ");
+
+if (num % 3 == 0 && num % 5 == 0) {
+  console.log("this number is multiple of both");
+}
+
+else{
+  console.log("this number is not multiple of both");
+  
+}
