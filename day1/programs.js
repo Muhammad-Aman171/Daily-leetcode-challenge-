@@ -47,3 +47,6 @@
 // else{
 //   console.log("this number is odd"); 
 // }
+
+
+// 5. Ask the user for a grade percentage and display the corresponding letter grade (A, B, C, D, F).
