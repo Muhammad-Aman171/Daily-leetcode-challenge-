@@ -125,3 +125,13 @@
 // }else{
 //   console.log("this triangle is scalene");
 // }
+
+
+// 19. Check if a string input is uppercase, lowercase, or a mix.
+
+let userInput = prompt("enter your work")
+
+if (userInput.toLowerCase){
+  console.log("this word contains lower case letters");
+  
+}
