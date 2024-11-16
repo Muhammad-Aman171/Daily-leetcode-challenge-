@@ -131,7 +131,11 @@
 
 let userInput = prompt("enter your work")
 
-if (userInput.toLowerCase){
+if (userInput === userInput.toLowerCase()){
   console.log("this word contains lower case letters");
-  
+}else if (userInput === userInput.toUpperCase()){
+  console.log("this word contains upper case letters");
+}else{
+  console.log("this word contains lower case and upper case letters");
+
 }
