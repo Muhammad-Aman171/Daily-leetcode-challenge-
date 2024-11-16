@@ -101,12 +101,10 @@ let num = +prompt("enter your number ");
 
 if (num % 3 == 0 && num % 5 == 0) {
   console.log("this number is multiple of both");
-}else if (num % 3 == 0 || num % 5 == 1){
+} else if (num % 3 == 0 || num % 5 == 1) {
   console.log("this number is multiple of 3 not 5");
-}else if (num % 3 == 0 || num % 5 == 0){
-  console.log("this number is multiple of 3 not 5");
-}
-else{
+} else if (num % 3 == 1 || num % 5 == 0) {
+  console.log("this number is multiple of 5 not 3");
+} else {
   console.log("this number is not multiple of both");
-  
 }
