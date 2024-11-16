@@ -77,8 +77,20 @@
 //   }
 // }
 
-// if (isPalindrome) { 
+// if (isPalindrome) {
 //   console.log("this word is palindrome");
 // }else{
 //   console.log("this word is not palindrome");
 // }
+
+// 9. Take three sides of a triangle as input and check if they form a valid triangle
+
+let side1 = +prompt("enter your side1 length : ");
+let side2 = +prompt("enter your side2 length : ");
+let side3 = +prompt("enter your side3 length : ");
+
+if (side1 + side2 > side3 && side1 + side3 > side2 && side2 + side1 > side1) {
+  print("this triangle is valid form");
+} else {
+  print("this triangle is not valid form");
+}
