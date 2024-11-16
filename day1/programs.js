@@ -28,3 +28,10 @@
 // 3. Write a program that checks if a given year is a leap year.
 
 userInput = +prompt("enter your number");
+
+if ((userInput % 4 == 0 ) || (userInput % 100 == 0) || (userInput % 400 == 0)) {
+  alert ("this year is a leap year")
+}
+else{
+  alert("this year is not a leap year")
+}
