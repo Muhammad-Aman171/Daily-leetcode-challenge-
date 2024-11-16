@@ -38,3 +38,12 @@
 
 
 // 4. Take an integer and check if it’s even or odd.
+
+// userInput = +prompt("enter your number");
+
+// if (userInput % 2 == 0 ){
+//   console.log("this number is even"); 
+// }
+// else{
+//   console.log("this number is odd"); 
+// }
