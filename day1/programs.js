@@ -109,14 +109,11 @@
 //   console.log("this number is not multiple of both");
 // }
 
-
 // 16. Take the length of three sides and classify the triangle (equilateral, isosceles, or scalene).
-
 
 // let side1 = +prompt("enter your side1")
 // let side2 = +prompt("enter your side2")
 // let side3 = +prompt("enter your side3")
-
 
 // if (side1 == side2 == side3){
 //   console.log("this triangle is equilateral");
@@ -125,7 +122,6 @@
 // }else{
 //   console.log("this triangle is scalene");
 // }
-
 
 // 19. Check if a string input is uppercase, lowercase, or a mix.
 
@@ -137,5 +133,17 @@
 //   console.log("this word contains upper case letters");
 // }else{
 //   console.log("this word contains lower case and upper case letters");
-
 // }
+
+// 20. Create a program that evaluates if an inputted number is prime.
+
+let userInput = +prompt("enter your number ");
+
+if (userInput < 2) {
+  console.log("this number is smaller then 2");
+}
+for (let i = 2; i < userInput.length; i++) {
+  if (userInput % i == 0) {
+    console.log("this number is not prime");
+  }
+}
