@@ -141,9 +141,10 @@ let userInput = +prompt("enter your number");
 
 if (userInput < 2) {
   console.log("this number is smaller then 2");
-}
-for (let i = 2; i <= userInput; i++) {
-  if (userInput % i == 0) {
-    console.log("this number is prime number");
+} else {
+  for (let i = 2; i <= userInput; i++) {
+    if (userInput % i == 0) {
+      console.log("this number is prime number");
+    }
   }
 }
