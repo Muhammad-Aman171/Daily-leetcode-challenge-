@@ -47,20 +47,32 @@
 
 // 5. Ask the user for a grade percentage and display the corresponding letter grade (A, B, C, D, F).
 
-grade = +prompt("enter your number");
+// grade = +prompt("enter your number");
 
-if (grade >= 90) {
-  console.log("your grade is A+");
-} else if (grade >= 80 && grade < 89) {
-  console.log("your grade is A");
-} else if (grade >= 70 && grade < 79) {
-  console.log("your grade is B");
-} else if (grade >= 60 && grade < 69) {
-  console.log("your grade is C");
-} else if (grade >= 50 && grade < 59) {
-  console.log("your grade is D");
-} else if (grade >= 40 && grade < 49) {
-  console.log("your grade is E");
-} else {
-  console.log("Congratulation! your are fail");
+// if (grade >= 90) {
+//   console.log("your grade is A+");
+// } else if (grade >= 80 && grade < 89) {
+//   console.log("your grade is A");
+// } else if (grade >= 70 && grade < 79) {
+//   console.log("your grade is B");
+// } else if (grade >= 60 && grade < 69) {
+//   console.log("your grade is C");
+// } else if (grade >= 50 && grade < 59) {
+//   console.log("your grade is D");
+// } else if (grade >= 40 && grade < 49) {
+//   console.log("your grade is E");
+// } else {
+//   console.log("Congratulation! your are fail");
+// }
+
+
+// 8. Create a program that checks if a given string is a palindrome.
+
+let userInput = prompt("enter your word")
+
+for (const i in userInput) {
+  console.log(userInput[i]);
+  
 }
+
+
