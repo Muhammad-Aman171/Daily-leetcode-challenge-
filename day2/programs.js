@@ -27,16 +27,20 @@
 
 // Perfect Number Check:
 
-let perNum = +prompt("enter your number ");
-let sum = 0;
-for (let i = 1; i < perNum; i++) {
-  if (perNum % i == 0) {
-    sum += i;
-  }
-}
+// let perNum = +prompt("enter your number ");
+// let sum = 0;
+// for (let i = 1; i < perNum; i++) {
+//   if (perNum % i == 0) {
+//     sum += i;
+//   }
+// }
 
-if (perNum == sum) {
-  console.log(sum, "is the perfect number");
-}else{
-  console.log(sum, "is not perfect number");
-}
+// if (perNum == sum) {
+//   console.log(sum, "is the perfect number");
+// }else{
+//   console.log(sum, "is not perfect number");
+// }
+
+
+// Prime Factors:
+
