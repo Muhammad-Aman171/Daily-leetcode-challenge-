@@ -44,4 +44,4 @@
 
 // Prime Factors:
 
-let 
+let primeNum = +prompt("enter your number")
