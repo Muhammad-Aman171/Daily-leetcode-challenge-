@@ -35,8 +35,8 @@ for (let i = 1; i < perNum; i++) {
   }
 }
 
-if (perNum == sum ){
-    console.log(sum , "is the perfect number");
-
+if (perNum == sum) {
+  console.log(sum, "is the perfect number");
+}else{
+  console.log(sum, "is not perfect number");
 }
-
