@@ -137,22 +137,28 @@
 
 // 20. Create a program that evaluates if an inputted number is prime.
 
-let userInput = +prompt("enter your number");
+// let userInput = +prompt("enter your number");
 
-if (userInput < 2) {
-  console.log("this number is smaller then 2");
-} else {
-  let isPrime = true;
-  for (let i = 2; i <= Math.sqrt(userInput); i++) {
-    if (userInput % i == 0) {
-      console.log("this number is prime number");
-      isPrime = false;
-      break;
-    }
-  }
-  if (isPrime) {
-    console.log("this number is prime number");
-  } else {
-    console.log("this number is not prime number");
-  }
+// if (userInput < 2) {
+//   console.log("this number is smaller then 2");
+// } else {
+//   let isPrime = true;
+//   for (let i = 2; i <= Math.sqrt(userInput); i++) {
+//     if (userInput % i == 0) {
+//       console.log("this number is prime number");
+//       isPrime = false;
+//       break;
+//     }
+//   }
+//   if (isPrime) {
+//     console.log("this number is prime number");
+//   } else {
+//     console.log("this number is not prime number");
+//   }
+// }
+
+
+for (let i = 0; i <50; i++) {
+  console.log(i);
+  
 }
