@@ -17,11 +17,18 @@
 
 // Armstrong Number Range:
 
-let ArmstrongNum = prompt("enter your number");
-sum =0
-for (let i = 0; i < ArmstrongNum.length; i++) {
-    mul= ArmstrongNum[i] ** ArmstrongNum.length
-    sum += mul 
-}
-console.log(sum);
+// let ArmstrongNum = prompt("enter your number");
+// sum =0
+// for (let i = 0; i < ArmstrongNum.length; i++) {
+//     mul= ArmstrongNum[i] ** ArmstrongNum.length
+//     sum += mul
+// }
+// console.log(sum);
+
+
+// Perfect Number Check:
+
+
+let perNum = +prompt("enter your number ")
+
 
