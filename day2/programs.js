@@ -25,10 +25,12 @@
 // }
 // console.log(sum);
 
-
 // Perfect Number Check:
 
-
-let perNum = +prompt("enter your number ")
-
-
+let perNum = +prompt("enter your number ");
+let sum = 0;
+for (let i = 1; i < perNum; i++) {
+  if (perNum % i == 0) {
+    sum += i;
+  }
+}
