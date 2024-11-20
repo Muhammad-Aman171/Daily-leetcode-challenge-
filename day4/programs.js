@@ -2,11 +2,11 @@
 
 let primeNum = +prompt("enter your number");
 
-arr = [];
+let arr = [];
 
-for( let i = 1 ; i <= primeNum ; i++){
-  while (primeNum % i == 0){
-    arr.push(primeNum / i)
+for (let i = 1; i <= primeNum; i++) {
+  while (primeNum % i == 0) {
+    arr.push(i);
     
   }
 }
