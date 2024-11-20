@@ -16,11 +16,11 @@
 // Pattern Printing:
 
 let userInput = +prompt("enter your number:");
-let a = "*";
 
 for (let i = 1; i <= userInput; i++) {
+  let a = "";
   for (let j = 0; j < i; j++) {
-    console.log(a);
+    a += "*";
   }
-  console.log("\t");
+  console.log(a);
 }
