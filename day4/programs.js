@@ -6,7 +6,8 @@ arr = [];
 
 for( let i = 1 ; i <= primeNum ; i++){
   while (primeNum % i == 0){
-    arr.push()
+    arr.push(primeNum / i)
+    
   }
 }
 
