@@ -15,12 +15,23 @@
 
 // Pattern Printing:
 
-let userInput = +prompt("enter your number:");
+// let userInput = +prompt("enter your number:");
 
-for (let i = 1; i <= userInput; i++) {
-  let a = "";
-  for (let j = 0; j < i; j++) {
-    a += "*";
-  }
-  console.log(a);
+// for (let i = 1; i <= userInput; i++) {
+//   let a = "";
+//   for (let j = 0; j < i; j++) {
+//     a += "*";
+//   }
+//   console.log(a);
+// }
+
+// Sum of Digits Until Single Digit:
+
+let inputDigits = +prompt("Enter your number");
+
+const strDigits = String(inputDigits);
+
+for (let i = 0 ; i<= strDigits.length ; i++ ){
+  console.log(strDigits[i]);
+  
 }
