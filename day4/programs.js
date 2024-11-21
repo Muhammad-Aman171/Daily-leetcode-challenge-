@@ -52,7 +52,9 @@ while (num >= 10) {
     sum += num % 10;
     num = Math.floor(num / 10);
   }
+  if (sum > 9) {
+    console.log(sum);
+  }
   num = sum;
 }
-
 console.log(num);
