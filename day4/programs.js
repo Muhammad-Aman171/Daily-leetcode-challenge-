@@ -28,10 +28,10 @@
 // Sum of Digits Until Single Digit:
 
 let inputDigits = +prompt("Enter your number");
-
+let a = 0;
 const strDigits = String(inputDigits);
 
-for (let i = 0 ; i<= strDigits.length ; i++ ){
-  console.log(strDigits[i]);
-  
+for (let i = 0; i <= strDigits.length; i++) {
+  a += Number(strDigits[i]);
 }
+console.log(inputDigits);
