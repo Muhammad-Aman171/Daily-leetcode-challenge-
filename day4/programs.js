@@ -50,10 +50,10 @@ const missingNum = [];
 
 const sequenceSet = new Set(arr);
 
-for (let i = 1; i <= maxNum; i++) {
-  if (!sequenceSet.has(i)) {
-    missingNum.push(i);
-  }
+// for (let i = 1; i <= maxNum; i++) {
+//   if (!sequenceSet.has(i)) {
+//     missingNum.push(i);
+//   }
 }
 
 console.log(missingNum);
