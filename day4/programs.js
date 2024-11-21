@@ -42,13 +42,13 @@
 // }
 // console.log(num);
 
-
-
 // Find Missing Number:
 
-let arr = [1,2,4,5,7,9]
-
-for (let i = 0; i < arr.length; i++) {
-  console.log(arr[i]);
-  
+let arr = [1, 2, 4, 5, 7, 9];
+for (let k = 0; k < 10; k++) {
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] !== k) {
+      console.log(i);
+    }
+  }
 }
