@@ -27,34 +27,28 @@
 
 // Sum of Digits Until Single Digit:
 
-// function sumUntilSingleDigit(num) {
-//   while (num >= 10) {
-//     let sum = 0;
-//     while (num > 0) {
-//       sum += num % 10;
-//       num = Math.floor(num / 10);
-//     }
-//     num = sum;
+// let num = +prompt("enter your number ");
+
+// while (num >= 10) {
+//   let sum = 0;
+//   while (num > 0) {
+//     sum += num % 10;
+//     num = Math.floor(num / 10);
 //   }
-//   return num;
+//   if (sum > 9) {
+//     console.log(sum);
+//   }
+//   num = sum;
 // }
+// console.log(num);
 
-// // Example usage
-// const number = +prompt("enter your number");
-// const result = sumUntilSingleDigit(number);
-// console.log(`The single-digit sum of ${number} is ${result}`);
 
-let num = +prompt("enter your number ");
 
-while (num >= 10) {
-  let sum = 0;
-  while (num > 0) {
-    sum += num % 10;
-    num = Math.floor(num / 10);
-  }
-  if (sum > 9) {
-    console.log(sum);
-  }
-  num = sum;
+// Find Missing Number:
+
+let arr = [1,2,4,5,7,9]
+
+for (let i = 0; i < arr.length; i++) {
+  console.log(arr[i]);
+  
 }
-console.log(num);
