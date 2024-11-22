@@ -44,19 +44,19 @@
 
 // Find Missing Number:
 
-const arr = [1, 2, 4, 5, 7, 9];
-const maxNum = 10;
-const missingNum = [];
+// const arr = [1, 2, 4, 5, 7, 9];
+// const maxNum = 10;
+// const missingNum = [];
 
-const sequenceSet = new Set(arr);
+// const sequenceSet = new Set(arr);
 
-for (let i = 1; i <= maxNum; i++) {
-  if (!sequenceSet.has(i)) {
-    missingNum.push(i);
-  }
-}
+// for (let i = 1; i <= maxNum; i++) {
+//   if (!sequenceSet.has(i)) {
+//     missingNum.push(i);
+//   }
+// }
 
-console.log(missingNum);
+// console.log(missingNum);
 
 
 
