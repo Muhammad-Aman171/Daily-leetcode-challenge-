@@ -14,7 +14,19 @@
 // counter() = 11 // Returns 1 more than the previous time.
 // counter() = 12 // Returns 1 more than the previous time.
 
-
 // Solution:
 
+/**
+ * @param {number} n
+ * @return {Function} counter
+ */
+var createCounter = function (n) {
+  return function () {
+   return n++;
+  };
+};
 
+const counter = createCounter(10);
+console.log(counter());
+console.log(counter());
+console.log(counter());
