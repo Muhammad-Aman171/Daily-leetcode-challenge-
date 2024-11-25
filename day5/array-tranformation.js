@@ -14,7 +14,6 @@
 // const newArray = map(arr, plusone); // [2,3,4]
 // The function increases each value in the array by one.
 
-
 // Solution:
 
 /**
@@ -22,6 +21,11 @@
  * @param {Function} fn
  * @return {number[]}
  */
-var map = function(arr, fn) {
-    
+
+var map = function (arr, fn) {
+  let newArray = [];
+  for (let i = 0; i < arr.length; i++) {
+    newArray = fn(arr[i], i);
+  }
+  return newArray;
 };
