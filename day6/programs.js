@@ -14,14 +14,14 @@
 
 // prime number
 
-let num = +prompt("enter your number");
+// let num = +prompt("enter your number");
 
-for (let i = 2; i < num; i++) {
-  if (num % i == 0) {
-    console.log(` ${num} number is not prime number`);
-    break;
-  } else {
-    console.log(` ${num} number is prime number`);
-    break
-  }
-}
+// for (let i = 2; i < num; i++) {
+//   if (num % i == 0) {
+//     console.log(` ${num} number is not prime number`);
+//     break;
+//   } else {
+//     console.log(` ${num} number is prime number`);
+//     break
+//   }
+// }
