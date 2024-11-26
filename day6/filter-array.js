@@ -25,7 +25,7 @@ var filter = function (arr, fn) {
 };
 
 let para2 = function (i, index) {
-  return i * index;
+  return arr[i] * index;
 };
 
 let para1 = [1, 2, 3, 4, 5];
