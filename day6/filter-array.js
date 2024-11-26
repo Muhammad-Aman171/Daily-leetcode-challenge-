@@ -36,15 +36,15 @@
 
 // console.log(filter(para1, para2));
 
-var filter = function (arr, fn) {
-  var filteredArr = [];
-  for (var i = 0; i < arr.length; i++) {
-    if (fn(arr[i], i)) {
-      filteredArr.push(arr[i]);
-    }
-  }
-  return filteredArr;
-};
+// var filter = function (arr, fn) {
+//   var filteredArr = [];
+//   for (var i = 0; i < arr.length; i++) {
+//     if (fn(arr[i], i)) {
+//       filteredArr.push(arr[i]);
+//     }
+//   }
+//   return filteredArr;
+// };
 
 // var map = function (arr, fn) {
 //   let newArray = [];
