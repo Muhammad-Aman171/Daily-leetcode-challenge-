@@ -32,6 +32,11 @@
 
 // console.log(filter(para1, para2));
 
-
-
-
+var map = function (arr, fn) {
+  let newArray = []; // Ek khaali array banate hain jisme naye values store hongi.
+  for (let i = 0; i < arr.length; i++) {
+    // Input array ke har element ke liye loop.
+    newArray.push(fn(arr[i], i)); // Har element ko callback function `fn` mein pass karte hain aur result array mein add karte hain.
+  }
+  return newArray; // Processed array ko return karte hain.
+};
