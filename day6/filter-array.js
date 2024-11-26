@@ -21,6 +21,7 @@
 // Solution:
 
 // var filter = function (arr, fn) {
+
 //   return arr, fn(arr[i], index);
 // };
 
