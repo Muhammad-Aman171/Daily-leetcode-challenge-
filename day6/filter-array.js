@@ -41,4 +41,10 @@ var map = function (arr, fn) {
   return newArray; // Processed array ko return karte hain.
 };
 
+let inputArray = [1, 2, 3, 4, 5];
+let squareFunction = function (num, index) {
+  return num * num; // Har element ka square return karega.
+};
 
+let result = map(inputArray, squareFunction);
+console.log(result);
