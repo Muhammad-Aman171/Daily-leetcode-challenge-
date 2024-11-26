@@ -36,6 +36,14 @@ let para1 = [1, 2, 3, 4, 5];
 
 console.log(filter(para1, para2));
 
+
+
+
+
+
+
+
+
 // var map = function (arr, fn) {
 //   let newArray = [];
 //   // Ek khaali array banate hain jisme naye values store hongi.
