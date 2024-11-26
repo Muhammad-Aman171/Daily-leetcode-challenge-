@@ -31,3 +31,7 @@
 // let para1 = [1, 2, 3, 4, 5];
 
 // console.log(filter(para1, para2));
+
+
+
+
