@@ -28,7 +28,7 @@ var filter = function (arr, fn) {
   return newArray;
 };
 
-let para2 = function (i, index) {
+let para2 = function (i) {
   return i * i;
 };
 
