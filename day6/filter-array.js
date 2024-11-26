@@ -18,9 +18,16 @@
 // const newArray = filter(arr, fn); // [20, 30]
 // The function filters out values that are not greater than 10
 
-
 // Solution:
 
-var filter = function (arr, fn){
+var filter = function (arr, fn) {
+  return arr, fn(arr[i], index);
+};
 
-}
+let para2 = function (i, index) {
+  return i * index;
+};
+
+let para1 = [1, 2, 3, 4, 5];
+
+console.log(filter(para1, para2));
