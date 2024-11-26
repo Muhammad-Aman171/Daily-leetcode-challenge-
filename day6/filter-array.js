@@ -21,34 +21,38 @@
 // Solution:
 
 var filter = function (arr, fn) {
-  return arr, fn(arr[i], index);
+  let newArray = [];
+  for (let i = 0; i < arr.length; i++) {
+    newArray.push(fn(para1[i], i));
+  }
+  return newArray;
 };
 
 let para2 = function (i, index) {
-  return arr[i] * index;
+  return i * i;
 };
 
 let para1 = [1, 2, 3, 4, 5];
 
 console.log(filter(para1, para2));
 
-var map = function (arr, fn) {
-  let newArray = [];
-  // Ek khaali array banate hain jisme naye values store hongi.
-  for (let i = 0; i < arr.length; i++) {
-    // Input array ke har element ke liye loop.
-    newArray.push(fn(arr[i], i));
-    // Har element ko callback function `fn` mein pass karte hain aur result array mein add karte hain.
-  }
-  return newArray;
-  // Processed array ko return karte hain.
-};
+// var map = function (arr, fn) {
+//   let newArray = [];
+//   // Ek khaali array banate hain jisme naye values store hongi.
+//   for (let i = 0; i < arr.length; i++) {
+//     // Input array ke har element ke liye loop.
+//     newArray.push(fn(arr[i], i));
+//     // Har element ko callback function `fn` mein pass karte hain aur result array mein add karte hain.
+//   }
+//   return newArray;
+//   // Processed array ko return karte hain.
+// };
 
-let inputArray = [1, 2, 3, 4, 5];
-let squareFunction = function (num, index) {
-  return num * num;
-  // Har element ka square return karega.
-};
+// let inputArray = [1, 2, 3, 4, 5];
+// let squareFunction = function (num, index) {
+//   return num * num;
+//   // Har element ka square return karega.
+// };
 
-let result = map(inputArray, squareFunction);
-console.log(result);
+// let result = map(inputArray, squareFunction);
+// console.log(result);
