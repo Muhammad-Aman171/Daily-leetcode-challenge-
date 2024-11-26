@@ -20,14 +20,14 @@
 
 // Solution:
 
-var filter = function (arr, fn) {
-  return arr, fn(arr[i], index);
-};
+// var filter = function (arr, fn) {
+//   return arr, fn(arr[i], index);
+// };
 
-let para2 = function (i, index) {
-  return arr[i] * index;
-};
+// let para2 = function (i, index) {
+//   return arr[i] * index;
+// };
 
-let para1 = [1, 2, 3, 4, 5];
+// let para1 = [1, 2, 3, 4, 5];
 
-console.log(filter(para1, para2));
+// console.log(filter(para1, para2));
