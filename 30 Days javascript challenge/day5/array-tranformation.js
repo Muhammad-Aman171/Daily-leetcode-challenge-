@@ -24,6 +24,7 @@
 
 var map = function (arr, fn) {
   let newArray = [];
+
   for (let i = 0; i < arr.length; i++) {
     newArray = fn(arr[i], i);
   }
