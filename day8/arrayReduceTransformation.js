@@ -17,15 +17,15 @@
 // The function filters out values that are not greater than 10
 
 let map = function (nums, fn) {
-//   let filteredArr = [];
-    let init = 0
+  //   let filteredArr = [];
+  let init = 0;
   for (let i = 0; i < nums.length; i++) {
-    init += fn(nums[i], i)
+    init += fn(nums[i], i);
   }
   return init;
 };
 
-let filteredFunc = function (acc , curr) {
+let filteredFunc = function (acc, curr) {
   return acc + curr;
 };
 
