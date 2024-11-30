@@ -16,16 +16,17 @@
 // const newArray = filter(arr, fn); // [20, 30]
 // The function filters out values that are not greater than 10
 
-let map = function (arr, fn) {
-  let filteredArr = [];
-  for (let i = 0; i < arr.length; i++) {
-    filteredArr.push(arr[i]);
+let map = function (nums, fn) {
+//   let filteredArr = [];
+    let init = 0
+  for (let i = 0; i < nums.length; i++) {
+    init += fn(nums[i], i)
   }
-  return filteredArr;
+  return init;
 };
 
-let filteredFunc = function (i) {
-  return i + 1;
+let filteredFunc = function (acc , curr) {
+  return acc + curr;
 };
 
 let inputArr = [1, 2, 3, 4];
