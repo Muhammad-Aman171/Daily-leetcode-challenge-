@@ -20,18 +20,18 @@ let map = function (arr, fn) {
   let filteredArr = [];
   for (let i = 0; i < arr.length; i++) {
     if (fn(arr[i], i)) {
-      filteredArr.push(fn(arr[i]));
+      filteredArr.push(arr[i]);
     }
   }
   return filteredArr;
 };
 
 let filteredFunc = function (i) {
-  if (i > 10) return i;
+  return i + 1;
 };
 
 // let inputArr = [0, 10, 20, 30];
 let inputArr = [-2, -1, 0, 1, 2];
-console.log(inputArr);
 
+console.log(inputArr);
 console.log(map(inputArr, filteredFunc));
