@@ -17,7 +17,6 @@
 // The function filters out values that are not greater than 10
 
 let map = function (nums, fn, init) {
-  //   let filteredArr = [];
   let val = init;
   for (let i = 0; i < nums.length; i++) {
     val = fn(val, nums[i]);
@@ -26,10 +25,10 @@ let map = function (nums, fn, init) {
 };
 
 let filteredFunc = function (acc, curr) {
-  return acc + curr;
+  return acc + curr * curr;
 };
 
 let inputArr = [1, 2, 3, 4];
 
 console.log(inputArr);
-console.log(map(inputArr, filteredFunc, 0));
+console.log(map(inputArr, filteredFunc, 100));
