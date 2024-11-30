@@ -16,7 +16,7 @@
 // init = 0
 // Output: 10
 // Explanation:
-// initially, the value is init=0.
+// initially, the value is init=0. F
 // (0) + nums[0] = 1
 // (1) + nums[1] = 3
 // (3) + nums[2] = 6
