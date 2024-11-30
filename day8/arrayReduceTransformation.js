@@ -28,7 +28,8 @@ let filteredFunc = function (acc, curr) {
   return acc + curr * curr;
 };
 
-let inputArr = [1, 2, 3, 4];
+let inputArr = [];
+let init = 100
 
 console.log(inputArr);
-console.log(map(inputArr, filteredFunc, 100));
+console.log(map(inputArr, filteredFunc, init));
