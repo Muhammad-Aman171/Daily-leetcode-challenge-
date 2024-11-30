@@ -16,6 +16,9 @@
 // const newArray = filter(arr, fn); // [20, 30]
 // The function filters out values that are not greater than 10
 
+
+
+
 let map = function (arr, fn) {
   let a = [];
   for (let i = 0; i < arr.length; i++) {
@@ -28,7 +31,7 @@ let transformationFunc = function (i, n) {
   return i + n;
 };
 
-let inputArr = [1, 2, 3];
+let inputArr = [0, 10, 20,30];
 console.log(inputArr);
 
 console.log(map(inputArr, transformationFunc));
