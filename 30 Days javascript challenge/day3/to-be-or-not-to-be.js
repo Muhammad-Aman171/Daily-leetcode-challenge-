@@ -24,6 +24,7 @@ var expect = function (val) {
         throw new Error("Not Equal");
       }
     },
+
     notToBe: function (n) {
       if (val !== n) {
         return true;
