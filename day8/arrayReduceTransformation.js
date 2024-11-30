@@ -16,13 +16,13 @@
 // const newArray = filter(arr, fn); // [20, 30]
 // The function filters out values that are not greater than 10
 
-let map = function (nums, fn) {
+let map = function (nums, fn, init) {
   //   let filteredArr = [];
-  let init = 0;
+  let val = init;
   for (let i = 0; i < nums.length; i++) {
-    init += fn(nums[i], i);
+    val = fn(val, nums[i]);
   }
-  return init;
+  return val;
 };
 
 let filteredFunc = function (acc, curr) {
@@ -32,4 +32,4 @@ let filteredFunc = function (acc, curr) {
 let inputArr = [1, 2, 3, 4];
 
 console.log(inputArr);
-console.log(map(inputArr, filteredFunc));
+console.log(map(inputArr, filteredFunc, 0));
