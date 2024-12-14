@@ -12,17 +12,16 @@ var twoSum = function (nums, target) {
         newArr.push(i, h);
         break;
       }
-      break;
     }
-
-    console.log(nums[i]);
+    break;
   }
   return newArr;
 };
 
 // let number = [2, 7, 11, 15];
-// let number = [3, 2, 4];
-let number = [3, 3];
+let number = [3, 2, 4];
+// let number = [3, 3];
+// let target = 9;
 let target = 6;
 
 console.log(twoSum(number, target));
