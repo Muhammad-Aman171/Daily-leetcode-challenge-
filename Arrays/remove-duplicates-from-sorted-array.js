@@ -4,9 +4,15 @@
  */
 
 var removeDuplicates = function(nums){
-    let k = 0;
-
-    return k;
+    let newArr = [];
+    for (const i in nums) {
+        if (!newArr.includes(nums[i])){
+            console.log(nums[i]);
+            
+        }
+        
+    }
+    return newArr;
 }
 
 
