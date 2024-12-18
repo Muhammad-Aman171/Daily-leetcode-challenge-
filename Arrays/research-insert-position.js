@@ -7,8 +7,15 @@
 var searchInsert = function (nums, target) {
   let k = 0;
 
-  for (let i = 0; i < nums.length; i++) {
-    console.log(i);
+  //   for (let i = 0; i < nums.length; i++) {
+
+  //     console.log(i);
+  //   }
+
+  for (const i in nums) {
+    if (nums[i] == target) {
+      return i;
+    }
   }
 
   return k;
