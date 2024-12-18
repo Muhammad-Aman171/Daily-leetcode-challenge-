@@ -15,6 +15,8 @@ var searchInsert = function (nums, target) {
   for (const i in nums) {
     if (nums[i] == target) {
       return i;
+    }else{
+        
     }
   }
 
