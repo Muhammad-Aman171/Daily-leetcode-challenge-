@@ -5,25 +5,25 @@
  */
 
 var searchInsert = function (nums, target) {
-  let k = 0;
+  let low = 0;
+  let high = nums.length - 1;
 
-  //   for (let i = 0; i < nums.length; i++) {
+  while (low <= high) {
+    let mid = Math.floor((low + high) / 2);
 
-  //     console.log(i);
-  //   }
-
-  for (const i in nums) {
-    if (nums[i] == target) {
-      return i;
-    }else{
-        
+    if (nums[mid] === target) {
+      return mid;
+    } else if (nums[mid] < target) {
+      low = mid + 1;
+    } else {
+      high = mid - 1;
     }
   }
 
-  return k;
+  return low;
 };
 
 let nums = [1, 3, 5, 6];
-let target = 5;
+let target = 4;
 
 console.log(searchInsert(nums, target));
