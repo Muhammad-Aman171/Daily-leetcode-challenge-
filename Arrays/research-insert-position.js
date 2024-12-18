@@ -5,6 +5,12 @@
  */
 
 var searchInsert = function (nums, target) {
+  let k = 0;
+
+  for (let i = 0; i < nums.length; i++) {
+    console.log(i);
+  }
+
   return k;
 };
 
