@@ -7,14 +7,12 @@
  */
 
 var merge = function (nums1, m, nums2, n) {
-//   let newArr = [];
-
   for (let i = 0; i < nums1.length; i++) {
     if (nums1[i] == 0) {
-      nums1[i] = nums2[i-1];
+      nums1[i] = nums2[i - 1];
     }
   }
-  return nums1
+  return nums1;
 };
 
 let nums1 = [1, 2, 3, 0, 0, 0];
