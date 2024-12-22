@@ -7,17 +7,21 @@
  */
 
 var merge = function (nums1, m, nums2, n) {
-  for (let i = 0; i < nums1.length; i++) {
+  let a = nums2.length - 1;
+  for (let i = nums1.length - 1; i > 0; i--) {
     if (nums1[i] == 0) {
-      nums1[i] = nums2[i - 1];
+      nums1[i] = nums2[a];
+      a--;
     }
   }
+  nums1.sort((a, b) => a - b);
   return nums1;
 };
 
-let nums1 = [1, 2, 3, 0, 0, 0];
-let m = 3;
-let nums2 = [2, 5, 6];
-let n = 3;
+// let nums1 = [1, 2, 3, 0, 0, 0];
+// let m = 3;
+// let nums2 = [2, 5, 6];
+// let n = 3;
+
 
 console.log(merge(nums1, m, nums2, n));
