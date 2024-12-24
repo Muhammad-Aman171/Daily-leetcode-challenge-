@@ -32,9 +32,8 @@ function sortedArrayToBST(nums) {
     return root; // Return the root of the BST
   }
   
-  // Example Usage:
   const nums = [-10, -3, 0, 5, 9];
   const bst = sortedArrayToBST(nums);
   
-  console.log(JSON.stringify(bst, null, 2)); // Pretty print the BST
+  console.log(JSON.stringify(bst, null, 2));
   
